@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: easyfl-client
-        image: easyfl-client
+        image: abh15/easyfl-client
         imagePullPolicy: IfNotPresent
         env:
         - name: PYTHONUNBUFFERED

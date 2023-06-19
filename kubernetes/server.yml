@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: easyfl-server
-    image: easyfl-server
+    image: abh15/easyfl-server
     imagePullPolicy: IfNotPresent
     env:
     - name: PYTHONUNBUFFERED
