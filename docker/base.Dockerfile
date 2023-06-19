@@ -2,7 +2,7 @@ FROM python:3.7.7-slim-buster
 
 WORKDIR /app
 
-COPY requirements/runtime.txt requirements.txt
+COPY requirements.txt requirements.txt
 COPY Makefile Makefile
 COPY protos protos
 

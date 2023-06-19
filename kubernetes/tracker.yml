@@ -17,4 +17,5 @@ spec:
     ports:
     - containerPort: 12666
   nodeSelector:
+    nodePool: cluster
     kubernetes.io/hostname: "node1"
