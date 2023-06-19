@@ -16,5 +16,3 @@ spec:
     args: ["--is-remote", "True", "--local-port", "23501", "--tracker-addr", "easyfl-tracker-svc.easyfl:12666"]
     ports:
     - containerPort: 23501
-  nodeSelector:
-    kubernetes.io/hostname: "node2"
