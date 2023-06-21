@@ -15,8 +15,7 @@ spec:
     spec:
       containers:
       - name: easyfl-client
-        image: abh15/easyfl-client
-        imagePullPolicy: IfNotPresent
+        image: abh15/easyfl-client:latest
         env:
         - name: PYTHONUNBUFFERED
           value: "1"
@@ -30,9 +29,9 @@ spec:
       - name: data-volume
         hostPath:
           path: /home/zwm/easyfl/easyfl/datasets/femnist/data
-      tolerations:
-      - key: "node-role.kubernetes.io/master"
-        operator: "Exists"
-        effect: "NoSchedule"
-      nodeSelector:
-        kubernetes.io/hostname: "node1"
+      # tolerations:
+      # - key: "node-role.kubernetes.io/master"
+      #   operator: "Exists"
+      #   effect: "NoSchedule"
+      # nodeSelector:
+      #   kubernetes.io/hostname: "node1"

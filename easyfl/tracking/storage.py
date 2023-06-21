@@ -11,7 +11,7 @@ from easyfl.protocol.codec import marshal
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_SQLITE_DB = "easyfl.db"
+DEFAULT_SQLITE_DB = "/app/easyfl.db"
 
 STORAGE_SQLITE = "sqlite"
 STORAGE_REMOTE = "remote"

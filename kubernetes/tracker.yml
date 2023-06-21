@@ -8,8 +8,7 @@ metadata:
 spec:
   containers:
   - name: easyfl-tracker
-    image: abh15/easyfl-tracker
-    imagePullPolicy: IfNotPresent
+    image: abh15/easyfl-tracker:latest
     env:
     - name: PYTHONUNBUFFERED
       value: "1"
