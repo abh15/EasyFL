@@ -20,7 +20,7 @@ oauthlib==3.2.2
 omegaconf==2.0.0
 Pillow==9.4.0
 pip==22.3.1
-protobuf==3.6.1
+protobuf==3.8.0
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pycparser==2.21
